@@ -58,7 +58,8 @@ Before you begin, ensure you have:
    cd StudentAdminSystem
 
 
-   📂 Project Structure
+
+📂 Project Structure
 
    StudentAdminSystem/
 ├── uploads/              # 📸 Stores images and ID cards
