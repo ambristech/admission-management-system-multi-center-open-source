@@ -1,8 +1,8 @@
 # 🎓 StudentAdminSystem
 
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/StudentAdminSystem?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/StudentAdminSystem?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/StudentAdminSystem?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/ambristech/StudentAdminSystem?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/ambristech/StudentAdminSystem?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/ambristech/StudentAdminSystem?style=for-the-badge)
 
 Welcome to **StudentAdminSystem**, a robust PHP-based web application designed to manage educational centers, students, universities, and courses efficiently! 🚀 Built with a modern stack and user-friendly interface, it caters to Super Admins, Center Admins, and Students with role-based access control.
 
@@ -56,3 +56,29 @@ Before you begin, ensure you have:
    ```bash
    git clone https://github.com/YOUR_USERNAME/StudentAdminSystem.git
    cd StudentAdminSystem
+
+
+   📂 Project Structure
+
+   StudentAdminSystem/
+├── uploads/              # 📸 Stores images and ID cards
+│   ├── centers/
+│   ├── students/
+│   └── id_cards/
+├── nav.php               # 🧭 Navigation bar
+├── db_connect.php        # 🔗 Database connection
+├── login.php             # 🔐 Login page
+├── dashboard.php         # 🏠 Main dashboard
+├── add_center.php        # 🏢 Add center page
+├── add_course.php        # 📚 Add course with universities
+├── add_student.php       # 🎓 Add student page
+├── center_*.php          # 🏫 Center admin pages
+├── student_*.php         # 🎓 Student pages
+└── database.sql          # 🗄️ Database schema
+
+🌐 Connect
+Follow us for updates:
+
+<a href="https://github.com/ambristech"><img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" width="20"/> GitHub</a>
+<a href="https://twitter.com/YOUR_TWITTER"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png" width="20"/> Twitter</a>
+<p align="center"> <strong>Made with 💙 by [Ambrish]</strong><br> <em>Happy Coding! 🚀</em> </p> ```
